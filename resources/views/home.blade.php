@@ -51,19 +51,17 @@
     </head>
     <body>
         <div class="center">
-            <div class="content flex-center">
-                <div class="m-b-t">
+            <div class="m-b-t">
                  <h1>{{ $title }}</h1>
-                </div>
             </div>
+            
 
             <div class="content flex">
-                <div>
                    <a href="{{ route('about') }}">About</a> 
                    <a href=" {{ route('contacts')}}">Contacts</a>
                    <a href=" {{ route('products')}}">Products</a>
-                </div>
             </div>
+
         </div>
     </body>
 </html>
